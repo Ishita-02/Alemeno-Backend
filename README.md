@@ -27,13 +27,13 @@ To run this project locally, follow these steps:
 
   ```bash
   docker build -t assignment .
-```
+  ```
 
 3. Run the Docker Container.
 
   ```bash
   docker run -p 3000:3000 -d assignment
-```
+  ```
 
 4. Access the application in your web browser at http://localhost:3000.
 
