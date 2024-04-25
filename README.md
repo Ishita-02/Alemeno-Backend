@@ -18,7 +18,7 @@ Before running this project, ensure that you have the following dependencies ins
 
 To run this project locally, follow these steps:
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine.
 
    ```bash
    git clone https://github.com/Ishita-02/Alemeno-Backend
@@ -26,12 +26,14 @@ To run this project locally, follow these steps:
 2. Build the docker image.
 
   ```bash
-   docker build -t assignment .
+  docker build -t assignment .
+```
 
-3. Run the Docker Container:
+3. Run the Docker Container.
 
   ```bash
   docker run -p 3000:3000 -d assignment
+```
 
 4. Access the application in your web browser at http://localhost:3000.
 
